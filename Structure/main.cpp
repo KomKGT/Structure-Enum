@@ -19,8 +19,8 @@ student assign()
 }
 int main(int argc, char** argv) {
 	enum base robotbase = robot_base;
-	cout<<robot_base<<endl;
-	student std01  = assign();
+	cout<<robot_base<<endl;			//output = 0
+	student std01  = assign();		//output = 10
 	cout<<std01.id;
 	
 	return 0;
